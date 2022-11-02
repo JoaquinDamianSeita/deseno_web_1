@@ -1,0 +1,87 @@
+* {
+  margin: auto;
+  text-align: center;
+}
+
+.soy_el_form {
+  background-color: beige;
+}
+
+.titles {
+  margin-top: 5%;
+}
+
+.titles .some_boxes {
+  width: 30%;
+  display: flex;
+}
+
+.titles img{
+  border-radius: 60%;
+}
+
+.titles .first_title {
+  flex: 10%;
+  padding: 5%;
+  color: #fff;
+  background-color: #781C68;
+  display: flex;
+  width: 20%;
+}
+
+.titles .first_title h2 {
+  padding-right: 2%;
+  flex: 10%;
+}
+
+.titles .first_title img {
+  flex: 10%;
+}
+
+.titles .second_title {
+  flex: 10%;
+  padding: 5%;
+  background-color: #319DA0;
+  display: flex;
+  width: 20%;
+}
+
+.titles .second_title h2 {
+  padding-left: 2%;
+  flex: 10%;
+}
+
+.titles .second_title img {
+  flex: 10%;
+}
+
+.all_content {
+  margin-top: 5%;
+  width: 30%;
+  height: 30%;
+  background-color: beige;
+  text-align: center;
+}
+
+.all_content li {
+  width: 25%;
+}
+
+#name_label {
+  color: red;
+}
+
+.profile_photo {
+  margin-top: 5%;
+  width: 200;
+  height: 200px;
+  border-radius: 50px;
+}
+
+header nav a {
+  border-radius: 10px;
+  color: white;
+  background-color: chocolate;
+  padding: 8px;
+  margin: 8px 8px;
+}

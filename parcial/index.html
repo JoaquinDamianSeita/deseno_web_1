@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Blog de Juegos</title>
+</head>
+<header>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#articulos">Articulos</a>
+    <a href="#acerca_de">Acerca de</a>
+    <a href="#preguntas">Preguntas</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+</header>
+<body>
+  <section id="home" class="colored-section">
+    <div class="container-fluid">
+      <div class="title_text">
+        <h1 class="title">Juegos.com</h1>
+        <p class="text-title">La mejor pagina de juegos del mundo.</p>
+      </div>
+      <div class="image">
+        <img src="./control.png" alt="imagen">
+      </div>
+    </div>
+  </section>
+
+  <section id="articulos">
+    <div class="article_box">
+      <img src="./game1.jpeg" alt="imagen_articulo">
+      <h2><em>Casino</em></h2>
+      <p>"Casino" es un inteligente y brillante drama criminal, dirigido por el legendario Martin Scorsese y protagonizado por Robert De Niro, Sharon Stone y Joe Pesci. Está basado en una historia real contada en el libro escrito por Nicholas Pileggi. Pileggi también participó en el guión junto a Martin Scorsese (ya habían escrito juntos "Goodfellas" 1990). 
+        El film nos Narra la historia de Sam "Ace" Rothstein, <br> cual tiene un don para el juego. Ha hecho ganar a la mafia mucho dinero con sus pronósticos. Conoce todos los trucos y nada se le escapa. Por eso los jefes deciden nombrarlo director de uno de los casinos mas importantes de Las Vegas, el Tangier. Pero Ace no es un mafioso, por</p>
+      <button><strong>Leer mas</strong></button>
+    </div>
+    <div class="article_box">
+      <img src="./game2.jpg" alt="imagen_articulo">
+      <h2><u>FPS</u></h2>
+      <blockquote>
+        En el primero, una suerte de calamares antropomórficos se disparan con pintura en una lucha por equipos en escenarios competitivos. Lo más cerca que ha estado Nintendo de un juego de tiros multijugador a lo ‘Call of Duty’. En el segundo, los protagonistas son plantas y zombis que se baten en un duelo similar, esta vez a base de dispararse guisantes o semillas entre ellos.
+        Ambos son juegos de tiros en tercera persona y, pese a contener armas que se asemejan en cierta forma a las reales como rifles de francotirador o ametralladoras pesadas, su gran baza para gozar de una calificación por edades inferior está en ofrecer una violencia animada entre seres fantásticos. Todo lo que rebase esa línea irá directo.
+      </blockquote>
+      <button><strong>Leer mas</strong></button>
+    </div>
+  </section>
+  
+  <section id="acerca_de" class="colored-section">
+    <div class="container-fluid">
+      <h2>Acerca del creador</h2>
+      <ol>
+        <li>Me llamo Joaquin Seita</li>
+        <li>Tengo 25 años</li>
+        <li>Estudio T.U. en Desarrollo de Software</li>
+        <li>Soy backend</li>
+      </ol>
+    </div>
+  </section>
+
+  <section id="preguntas" class="preguntas">
+    <table>
+      <tr class="tr_principal">
+        <td class="td_principal">¿Qué fue lo que más te costó del parcial?</td>
+        <td class="td_principal">¿Qué mejorarías de la web si tuvieras más tiempo para trabajar?</td>
+        <td class="td_principal">¿Considerás que obtuviste un resultado profesional? ¿por qué?</td>
+        <td class="td_principal">¿Qué etiqueta html puede utilizarse para centrar contenido si no puedo utilizar ningún otro lenguaje?</td>
+        <td class="td_principal">Si tengo que crear una estructura de 6 imágenes alineadas en cuadrícula,3 horizontalmente por arriba y 3 por debajo.¿Cómo las alinearía utilizando CSS?</td>
+      </tr>
+      <tr class="tr_secundaria">
+        <td>CSS, elegir colores que queden bien y la propiedad display</td>
+        <td>Mejoraria la estetica agregando mas secciones y CSS, perfeccionando la semantica y 
+          los tamaños. Haciendo que la pagina sea responsive. Que el formulario funcione correctamente.
+        </td>
+        <td>No, yo no pagaria por una pagina que se hizo en unas horas sin probar. Aunque si le dedicara
+          mas tiempo creo que se podria lograr algo que al menos de vista sea aceptable.
+        </td>
+        <td>Utilizaria la etiqueta center</td>
+        <td>Utilizaria display grid definiendo los elementos con las row y columns que quiero que ocupe
+          utilizando display: grid para el contenedor padre y grid-column o grid-row para los contenedores
+          hijos. Contenedor papa => display: grid; contenedor hijo => grid-column 1 o 2 o 3; grid-row: 1 o 2;
+        </td>
+      </tr>
+    </table>
+  </section>
+
+  <section id="contacto" class="colored-section">
+    <div class="formulario container-fluid">
+      <form>
+        <label for="fname">Nombre completo</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Email</label><br>
+        <input type="email" id="lname" name="lname">
+        <label for="aname">Mensaje</label><br>
+        <input class="message_text" type="text" id="aname" name="aname">
+        <input class="submit_button" type="submit" value="ENVIAR">
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="lista">
+      <ul>
+        <li>Creado por Joaquin Seita</li>
+        <li>Primer parcial de Diseño Web</li>
+        <li>04/10/2022</li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,16 @@
+.color {
+  background-color: burlywood;
+}
+
+.resaltado {
+  background-color: yellow;
+  color: red;
+}
+
+.oculto {
+  display: none;
+}
+
+.mostrar {
+  display: inline;
+}

@@ -1,0 +1,38 @@
+* { margin: 0; padding: 0; }
+
+.principal {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* index */
+
+.titulo {
+  text-align: center;
+}
+
+.begin_button {
+  font-size: 20px;
+  margin: 10%;
+  padding: 5%;
+}
+
+/* otros */
+.choose_box {
+  text-align: center;
+}
+
+.text {
+  margin-top: 2%;
+}
+
+.image {
+  margin-top: 10%;
+  width: 350px;
+  height: 300px;
+}
+
+.button {
+  margin-top: 2%;
+  padding: 1%;
+}

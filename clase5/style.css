@@ -1,0 +1,215 @@
+* {
+  margin: auto;
+  text-align: center;
+}
+
+body {
+  background-color: #A7D2CB;
+}
+
+header nav a {
+  border-radius: 10px;
+  color: white;
+  background-color: #C98474;
+  padding: 8px;
+  margin: 8px 8px;
+}
+
+.conocenos {
+  height: 90%;
+  margin-top: 2%;
+  background-image: url("./conocenos.jpg");
+  text-align: center;
+}
+
+.name {
+  color: rgb(23, 235, 8);
+  -webkit-text-stroke: 2px black;
+  width: 40%;
+  padding-top: 6%;
+  font-size: 60px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.dir {
+  padding-top: 5%;
+}
+
+.menu {
+  color: #fff;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  height: fit-content;
+  width: 80%;
+  background-color: #F2D388;
+}
+
+.menu .div_menu{
+  margin-top: 2%;
+  width: 50%;
+  background-color: #C98474;
+  border-radius: 50px;
+}
+
+.menu h3 {
+  padding-top: 2%;
+  font-size: 40px;
+}
+
+.menu p {
+  padding-bottom: 2%;
+  width: 50%;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* sections */
+
+.colored-section {
+  width: 80%;
+  background-color: #ff4c68;
+  color: #ffffff;
+}
+
+#testimonials {
+  width: 80%;
+  background-color: #C98474;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  height: 250px;
+  width: 300px;
+  border-radius: 30%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.auto-style1 {
+  font-family: "Arial Black";
+  font-size: 30pt;
+  color: #FF0000;
+}
+.auto-style3 {
+  font-size: large;
+  color: #FF0000;
+  font-family: "Arial Black";
+}
+.auto-style4 {
+  border-style: solid;
+  border-width: 2px;
+}
+.auto-style5 {
+  color: #FF0000;
+}
+.auto-style6 {
+  font-size: x-large;
+  color: #FF0000;
+  text-decoration: underline;
+  font-weight: normal;
+  font-family: "Arial Black";
+}
+.auto-style7 {
+  border-width: 0px;
+}
+.auto-style8 {
+  font-size: large;
+}
+.auto-style9 {
+  font-size: large;
+  font-weight: bold;
+}
+.auto-style10 {
+  font-family: "Arial Black";
+  font-size: 40pt;
+  color: #008000;
+  text-decoration: underline;
+}
+.auto-style11 {
+  font-family: "Arial Black";
+  font-size: x-large;
+  color: #008000;
+}
+.auto-style12 {
+  font-size: large;
+  color: #008000;
+  font-family: "Arial Black";
+}
+.auto-style13 {
+  color: #FF0021;
+  font-size: 50pt;
+}
+.auto-style14 {
+  color: #008000;
+  font-style: italic;
+  font-weight: bold;
+}
+.auto-style18 {
+  font-size: large;
+  color: #FF0000;
+  font-family: "Arial Black";
+  text-align: left;
+}
+.auto-style20 {
+  color: #008000;
+}
+.auto-style21 {
+  font-size: 20pt;
+  color: #0000FF;
+  font-family: "Arial Black";
+}
+.auto-style24 {
+  font-family: "Arial Black";
+  font-size: xx-large;
+  color: #008080;
+  text-decoration: underline;
+  text-align: center;
+}
+.auto-style25 {
+  color: #008000;
+  font-size: 50pt;
+}
+.auto-style26 {
+  color: #FF0000;
+  font-size: 60pt;
+}
+.auto-style27 {
+  font-size: 20pt;
+  color: #FF0000;
+}
+.auto-style28 {
+  color: #0000FF;
+  font-size: 20pt;
+}
+.auto-style29 {
+  font-family: "Arial Black";
+  font-size: 20pt;
+  color: #FF0000;
+}
+.auto-style30 {
+  color: #FF0000;
+  font-size: 50pt;
+}
+.auto-style31 {
+  color: #FF0000;
+  font-size: 40pt;
+}
+.auto-style32 {
+  color: #008000;
+  font-size: 40pt;
+}

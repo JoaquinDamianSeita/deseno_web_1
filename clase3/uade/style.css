@@ -1,0 +1,106 @@
+/* All */
+* {
+  margin: auto;
+  text-align: center;
+}
+
+header nav a {
+  border-radius: 10px;
+  color: white;
+  background-color: chocolate;
+  padding: 8px;
+  margin: 8px 8px;
+}
+
+
+
+/* Home */
+
+.home_table {
+  margin-top: 5%;
+}
+
+.home_table td{
+  padding: 2%;
+  height: 100px;
+  width: 150px;
+  border: 1%;
+  border-style: double;
+}
+
+.tr_principal {
+  background-color: darkcyan;
+}
+
+.td_principal {
+  color: #fff;
+  size: 5%;
+}
+
+/* Avisos */
+
+.all_content {
+  margin-top: 5%;
+  width: 25%;
+  height: 30%;
+  background-color: beige;
+  text-align: center;
+}
+
+
+.all_content h2{
+  text-decoration-line: underline;
+}
+
+.all_content li {
+  margin-top: 2%;
+  width: 50%;
+  text-align: left;
+  padding: 5px;
+  border-style: groove;
+}
+
+/* Acerca De */
+
+.all_content_acerca {
+  margin-top: 5%;
+  width: 30%;
+  height: 30%;
+  background-color: beige;
+  text-align: center;
+}
+
+.all_content_acerca li {
+  margin-top: 2%;
+  width: 40%;
+}
+
+.all_content_acerca .creator_info {
+  font-size: 25px;
+}
+
+.profile_photo {
+  margin-top: 5%;
+  width: 200;
+  height: 200px;
+  border-radius: 50px;
+}
+
+/* Contacto */
+
+.form {
+  margin-top: 5%;
+  width: 200px;
+  background-color: beige;
+}
+
+.submit_button {
+  padding: 4%;
+  margin-top: 4%;
+  background-color: greenyellow;
+}
+
+.message_text {
+  height: 40px;
+}
+
